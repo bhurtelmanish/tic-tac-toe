@@ -46,7 +46,7 @@ new_game_btn.addEventListener('click', () =>{
          tic_tac_toe.style.display = 'block';
          loading = false;
          (loading == false) ? loader.style.display = 'none' : loader.style.display = 'block'
-    } , 100);
+    } , 500);
 })
 
 
